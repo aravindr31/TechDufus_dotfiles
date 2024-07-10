@@ -89,8 +89,8 @@ helm:
 
 go:
   # packages:
-    # - package: github.com/stillmatic/chat@latest
-    #   cmd: chat
+  #   - package: github.com/tbckr/sgpt/v2/cmd/sgpt@latest
+  #     cmd: sgpt
 
 ssh_key:
   lumen-windows-wsl: !vault |

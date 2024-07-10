@@ -12,5 +12,6 @@
   ansible.builtin.pip:
     name: "{{ item }}"
     state: present
+    extra_args: --user
   loop:
     - shell-gpt==0.9.0
